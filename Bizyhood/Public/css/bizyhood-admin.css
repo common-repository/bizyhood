@@ -1,0 +1,71 @@
+#bizylink-insert-dialog .query-notice {
+  padding: 0;
+  border-bottom: 1px solid #dfdfdf;
+  background-color: #f7fcfe;
+  color: #000;
+}
+#bizylink-insert-dialog .query-notice .query-notice-default {
+  display: block;
+  padding: 6px;
+  border-left: 4px solid #00a0d2;
+}
+#bizylink-insert-dialog li {
+  clear: both;
+  margin-bottom: 0;
+  border-bottom: 1px solid #f1f1f1;
+  color: #32373c;
+  padding: 4px 6px 4px 10px;
+  cursor: pointer;
+  position: relative;
+}
+.alternate, .striped>tbody>:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+#bizylink_results {
+  height: 140px; 
+  margin: 0; 
+  overflow: auto;
+  padding: 5px;
+  border: 1px solid #dedede;
+  white-space: normal;
+  width: 97%;
+
+}
+#bizylink_results a { 
+  display: block; 
+  width: 100%; 
+}
+.bizyres li.clicked a {
+  color: #fff;
+}
+.bizyres li.clicked {
+  background-color: #5b9dd9;
+}
+
+input.bizyradio {
+  min-width: 14px;
+  width: 14px;
+  height: 14px;
+}
+
+em.query-notice-default {
+  display: block;
+}
+table.options_table {
+  width: 100%;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+table.options_table td {
+  vertical-align: middle;
+}
+table.options_table td.first_column {
+  width: 35%;
+}
+table.options_table td input[type="text"] {
+  width: 96%;
+}
+span.faded {
+  opacity: 0.7;
+}
